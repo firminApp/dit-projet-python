@@ -1,0 +1,11 @@
+Bulletin de Aminata DIOP
+Matricule: DIT3657825
+
+Notes:
+  Python: 14
+  Anglais: 16
+  Data Collection: 12
+  Machine Learning: 18
+
+Moyenne Générale: 15.00
+Mention: Bien
