@@ -67,6 +67,7 @@ def ajouter_etudiant():
         "notes": notes
     }
     etudiants.append(etudiant)
+    sauvegarder_etudiants()
     print("Étudiant ajouté avec succès.")
 
 def modifier_note(matricule):
@@ -89,6 +90,7 @@ def modifier_note(matricule):
         else:
             print("Matière non trouvée.")
             return
+    sauvegarder_etudiants()
     print("Étudiant non trouvé.")
 
 
@@ -179,7 +181,7 @@ def sauvegarder_etudiants():
                 f.write(f"{matiere}:{note},")
             f.write("\n")
     print("Étudiants sauvegardés dans etudiants.txt.")  
-    
+
 # Charger à nouveau les données depuis ce fichier
 def charger_etudiants():
     etudiants_charges=[]

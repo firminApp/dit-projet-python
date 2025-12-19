@@ -1,6 +1,8 @@
 DIOP,Aminata,DIT3657825
-Python:14,Anglais:16,Data Collection:12,Machine Learning:18,
-SOW,Mamadou,DIT3657825
+Python:14,Anglais:1,Data Collection:2,Machine Learning:8,
+SOW,Mamadou,DIT3657925
 Python:10,Anglais:9,Data Collection:11,Machine Learning:13,
-NDIAYE,Fatou,DIT3657825
+NDIAYE,Fatou,DIT3651025
 Python:18,Anglais:17,Data Collection:19,Machine Learning:16,
+BANIGANTE,Kpapou,DIT000424
+Python:19.0,Anglais:18.0,Data Collection:20.0,Machine Learning:20.0,
