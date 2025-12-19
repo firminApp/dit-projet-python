@@ -1,21 +1,6 @@
 # importer le module gestion_etudiants
 import gestion_etudiants as ge
-'''
- Menu principal à implémenter
-Le programme doit afficher le menu suivant :
-========= SYSTEME DE GESTION SCOLAIRE =========
-1. Ajouter un étudiant
-2. Saisir / Modifier les notes d'un étudiant
-3. Afficher tous les étudiants
-4. Rechercher un étudiant par matricule
-5. Afficher les étudiants admis
-6. Sauvegarder les données
-7. Charger les données
-8. Générer le bulletin d’un étudiant
-9. Générer les bulletins de toute la classe
-10. Lire le bulletin d’un étudiant
-0. Quitter
-'''
+
 def main():
     etudiants=[]
     while True:
@@ -43,7 +28,7 @@ def main():
             matricule=input("Entrez le matricule de l'étudiant: ")
             etudiant=ge.rechercher_etudiant(matricule)
             if etudiant:
-                ge.saisir_notes(etudiant)
+                ge.modifier_note(matricule)
             else:
                 print("Étudiant non trouvé.")
         elif choix=="3":
@@ -69,12 +54,11 @@ def main():
             else:
                 print("Étudiant non trouvé.")
         elif choix=="9":
-            for etudiant in etudiants:
-                ge.generer_bulletin(etudiant)
+            ge.generate_bulletins_classe()
         elif choix=="10":
             matricule=input("Entrez le matricule de l'étudiant: ")
             try:
-                with open(f"{matricule}.txt", "r") as f:
+                with open(f"bulletins/{matricule}.txt", "r") as f:
                     contenu=f.read()
                     print(contenu)
             except FileNotFoundError:

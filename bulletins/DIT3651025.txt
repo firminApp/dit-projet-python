@@ -2,20 +2,20 @@
 ║                         BULLETIN SCOLAIRE                          ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║                                                                    ║
-║  Nom: DIOP                                                         ║
-║  Prénom: Aminata                                                   ║
-║  Matricule: DIT3657825                                             ║
+║  Nom: NDIAYE                                                       ║
+║  Prénom: Fatou                                                     ║
+║  Matricule: DIT3651025                                             ║
 ║                                                                    ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║                   MATIÈRE                   │         NOTE         ║
 ╠═════════════════════════════════════════════╪══════════════════════╣
-║  Python                                     │        14.00         ║
-║  Anglais                                    │         1.00         ║
-║  Data Collection                            │         2.00         ║
-║  Machine Learning                           │         8.00         ║
+║  Python                                     │        18.00         ║
+║  Anglais                                    │        17.00         ║
+║  Data Collection                            │        19.00         ║
+║  Machine Learning                           │        16.00         ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║                                                                    ║
-║  Moyenne Générale: 6.25                                            ║
-║  Mention: Échec                                                    ║
+║  Moyenne Générale: 17.50                                           ║
+║  Mention: Très Bien                                                ║
 ║                                                                    ║
 ╚════════════════════════════════════════════════════════════════════╝

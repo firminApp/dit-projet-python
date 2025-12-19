@@ -47,7 +47,8 @@ Le programme doit afficher le menu suivant :
 5. Format du bulletin à générer
 Chaque bulletin devra être sauvegardé dans un dossier nommé bulletins/ sous la forme :
 bulletins/MATRICULE.txt
-NB : Vous êtes encouragés à concevoir un bulletin personnel et esthétique. Il peut être
+
+NB: Vous êtes encouragés à concevoir un bulletin personnel et esthétique. Il peut être
 sobre, artistique, encadré, structuré en tableau, ou organisé sous forme de certificat.
 Donnez libre cours à votre créativité : l’objectif est de produire un document lisible et
 agréable, tout en respectant le contenu obligatoire.
